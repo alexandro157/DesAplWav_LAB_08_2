@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="Ejercicio09_2.MainPage"
+             mc:Ignorable="d">
+
+    <StackLayout>
+        <StackLayout Orientation="Vertical">
+            <Entry Placeholder="Nombre"></Entry>
+            <Entry Placeholder="Apellido"></Entry>
+            <Entry Placeholder="Numero de celular"></Entry>
+            <Entry Placeholder="Contraseña"></Entry>
+            <Entry Placeholder="Correo" ></Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="signup" Text="Guardar"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
